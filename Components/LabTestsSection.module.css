@@ -184,6 +184,7 @@
 }
 
 .packageButton {
+  display: inline-block;
   background: white;
   color: #dc3545;
   border: none;
@@ -195,6 +196,7 @@
   text-transform: uppercase;
   letter-spacing: 1px;
   transition: all 0.3s ease;
+  text-decoration: none;
 }
 
 .packageButton:hover {

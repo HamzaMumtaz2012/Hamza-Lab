@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import Link from 'next/link';
 import styles from './LabTestsSection.module.css';
 
 const LabTestsSection = () => {
@@ -128,7 +129,9 @@ const LabTestsSection = () => {
       <div className={styles.ctaSection}>
         <h2>Need Multiple Tests?</h2>
         <p>Get our Complete Health Checkup Package at special discounted rates</p>
-        <button className={styles.packageButton}><a href="/Packages">View Packages</a></button>
+        <Link href="/Packages" className={styles.packageButton}>
+          View Packages
+        </Link>
       </div>
     </div>
   );

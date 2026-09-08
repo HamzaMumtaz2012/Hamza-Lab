@@ -1,8 +1,11 @@
 import React from 'react'
+import PackagesSection from '@/Components/PackagesSection'
 
 const page = () => {
   return (
-    <div>page</div>
+    <div>
+      <PackagesSection />
+    </div>
   )
 }
 

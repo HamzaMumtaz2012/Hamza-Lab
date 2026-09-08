@@ -1,0 +1,342 @@
+/* Top Bar */
+.topBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 44px;
+  width: 100%;
+  border-bottom: 1px solid #e2e7ec;
+  padding: 0 24px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #697382;
+  background: #ffffff;
+}
+
+.topBarText {
+  display: block;
+}
+
+.contactInfo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-left: auto;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  border-right: 1px solid #dce1e5;
+  padding-right: 20px;
+  white-space: nowrap;
+}
+
+.contactItem:last-child {
+  border-right: none;
+  padding-right: 0;
+}
+
+/* Main Header */
+.mainHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  width: 100%;
+  border-bottom: 1px solid #e6e9ed;
+  padding: 22px 24px;
+  background: #ffffff;
+}
+
+.logoSection {
+  flex-shrink: 0;
+}
+
+.logo {
+  height: auto;
+  width: 175px;
+  border-radius: 8px;
+  object-fit: contain;
+}
+
+.searchContainer {
+  display: flex;
+  align-items: center;
+  height: 44px;
+  max-width: 680px;
+  width: 55%;
+  gap: 0;
+  border-radius: 9999px;
+  background: #f4faff;
+  padding: 0 17px;
+  flex: 1;
+}
+
+.searchInput {
+  min-width: 0;
+  flex: 1;
+  background: transparent;
+  font-size: 13px;
+  color: #273449;
+  outline: none;
+  border: none;
+  font-family: inherit;
+}
+
+.searchInput::placeholder {
+  color: #929ca8;
+}
+
+/* Hamburger Menu */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 28px;
+  height: 24px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.hamburgerLine {
+  display: block;
+  width: 100%;
+  height: 3px;
+  background: #dc3545;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+  transform-origin: center;
+}
+
+/* Navigation */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  width: 100%;
+  padding: 20px 24px;
+  font-size: 14px;
+  font-weight: 600;
+  border-bottom: 1px solid #f0f0f0;
+  background: #ffffff;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.navbar::-webkit-scrollbar {
+  height: 4px;
+}
+
+.navbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.navbar::-webkit-scrollbar-thumb {
+  background: #dc3545;
+  border-radius: 2px;
+}
+
+.navLink {
+  color: #273449;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  transition: color 0.3s ease;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.navLink:hover {
+  color: #dc3545;
+}
+
+/* Menu Overlay */
+.menuOverlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+/* Tablet and Mobile Responsive Design */
+@media (max-width: 768px) {
+  .topBar {
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 12px 16px;
+    min-height: auto;
+  }
+
+  .topBarText {
+    display: none;
+  }
+
+  .contactInfo {
+    width: 100%;
+    gap: 12px;
+    margin-left: 0;
+    justify-content: center;
+  }
+
+  .contactItem {
+    font-size: 10px;
+    padding-right: 12px;
+    border-right: 1px solid #dce1e5;
+    gap: 5px;
+  }
+
+  .contactItem:last-child {
+    border-right: none;
+    padding-right: 0;
+  }
+
+  .mainHeader {
+    padding: 12px 16px;
+    gap: 12px;
+  }
+
+  .logo {
+    width: 100px;
+  }
+
+  .searchContainer {
+    width: auto;
+    flex: 1;
+    height: 36px;
+    padding: 0 12px;
+    max-width: none;
+  }
+
+  .searchInput {
+    font-size: 12px;
+  }
+
+  .hamburger {
+    display: flex;
+    flex-shrink: 0;
+  }
+
+  .navbar {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 280px;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0;
+    padding: 80px 20px 20px;
+    background: #ffffff;
+    border-bottom: none;
+    border-right: 1px solid #e6e9ed;
+    z-index: 1000;
+    overflow-y: auto;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .navbar.mobileOpen {
+    display: flex;
+  }
+
+  .navLink {
+    width: 100%;
+    padding: 16px 0;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 14px;
+  }
+
+  .navLink:hover {
+    color: #dc3545;
+    background: #f9f9f9;
+    padding-left: 10px;
+  }
+
+  .menuOverlay.active {
+    display: block;
+  }
+
+  .menuOverlay {
+    display: none;
+  }
+
+  .navbar.mobileOpen ~ .menuOverlay {
+    display: block;
+  }
+}
+
+/* Mobile - Small Phones */
+@media (max-width: 480px) {
+  .topBar {
+    min-height: auto;
+    padding: 10px 12px;
+  }
+
+  .contactInfo {
+    gap: 10px;
+  }
+
+  .contactItem {
+    font-size: 9px;
+    gap: 4px;
+    padding-right: 10px;
+  }
+
+  .mainHeader {
+    padding: 10px 12px;
+    gap: 8px;
+  }
+
+  .logo {
+    width: 80px;
+  }
+
+  .searchContainer {
+    height: 32px;
+    padding: 0 10px;
+  }
+
+  .searchInput {
+    font-size: 11px;
+  }
+
+  .hamburger {
+    width: 24px;
+    height: 20px;
+  }
+
+  .hamburgerLine {
+    height: 2.5px;
+  }
+
+  .navbar {
+    max-width: 100%;
+    width: 100%;
+    padding: 70px 16px 20px;
+  }
+
+  .navLink {
+    padding: 14px 0;
+    font-size: 13px;
+  }
+}
+
+/* Extra Large Screens */
+@media (min-width: 1264px) {
+  .topBar,
+  .mainHeader,
+  .navbar {
+    margin: 0 auto;
+    max-width: 1263px;
+  }
+}
