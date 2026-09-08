@@ -19,7 +19,5 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.service-overlay {
-  background: linear-gradient(to bottom, transparent 25%, rgba(128, 207, 92, 0.98) 78%);
-}
+
 
