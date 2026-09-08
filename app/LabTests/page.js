@@ -1,8 +1,11 @@
 import React from 'react'
+import LabTestsSection from '@/Components/LabTestsSection'
 
 const page = () => {
   return (
-    <div>page</div>
+    <div>
+      <LabTestsSection />
+    </div>
   )
 }
 
