@@ -23,8 +23,8 @@ const Header = () => {
       </header>
 
       <nav className="mx-auto flex w-full max-w-[1263px] justify-center gap-[clamp(20px,4vw,58px)] overflow-x-auto whitespace-nowrap px-6 py-5 text-sm font-semibold max-md:justify-start max-md:gap-3.5 max-md:px-3 max-md:text-xs" aria-label="Main navigation">
-        <a className="hover:text-[#ffc107]" href="#">Home</a><a className="hover:text-[#ffc107]" href="/About">About Us</a><a className="hover:text-[#ffc107]" href="/OnlineReports">Online Reports</a>
-        <a className="hover:text-[#ffc107]" href="/LabTests">Lab Tests</a><a className="hover:text-[#ffc107]" href="/Packages">Packages</a><a className="hover:text-[#ffc107]" href="#">Mobile App</a>
+        <a className="hover:text-red-400" href="#">Home</a><a className="hover:text-red-400" href="/About">About Us</a><a className="hover:text-red-400" href="/OnlineReports">Online Reports</a>
+        <a className="hover:text-red-400" href="/LabTests">Lab Tests</a><a className="hover:text-red-400" href="/Packages">Packages</a><a className="hover:text-red-400" href="#">Mobile App</a>
       </nav>
       </>
   )
