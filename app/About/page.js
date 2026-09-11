@@ -23,7 +23,7 @@ const page = () => {
       {/* Hero */}
       <section className="bg-red-50 px-6 py-20 text-center">
         <p className="mb-3 text-sm font-bold uppercase tracking-[0.3em] text-red-600">
-          Hamza Lab
+          southcity Lab
         </p>
 
         <h1 className="text-4xl font-extrabold text-gray-900 md:text-6xl">
@@ -49,14 +49,14 @@ const page = () => {
             </p>
 
             <h2 className="text-3xl font-bold text-gray-900 md:text-4xl">
-              About Hamza Lab
+              About southcity Lab
             </h2>
 
             <div className="mt-4 h-1 w-12 rounded-full bg-red-600"></div>
           </div>
 
           <p className="leading-8 text-gray-600">
-            Hamza Lab is a modern diagnostic laboratory dedicated to providing
+            southcity Lab is a modern diagnostic laboratory dedicated to providing
             reliable, accurate, and timely laboratory testing services. Our
             laboratory combines modern technology with carefully designed
             testing procedures to provide dependable diagnostic services for
@@ -155,7 +155,7 @@ const page = () => {
             </h2>
 
             <p className="mt-5 leading-8 text-red-50">
-              At Hamza Lab, quality is an important part of every testing
+              At southcity Lab, quality is an important part of every testing
               process. Our procedures focus on accurate sample handling,
               careful analysis, and organized reporting.
             </p>
@@ -175,7 +175,7 @@ const page = () => {
             <p className="mt-5 leading-8 text-gray-600">
               Our laboratory concept is built around modern diagnostic
               technology and efficient testing workflows. By combining
-              technology with professional laboratory practices, Hamza Lab
+              technology with professional laboratory practices, southcity Lab
               aims to provide a smooth and dependable diagnostic experience.
             </p>
 
@@ -197,7 +197,7 @@ const page = () => {
         </h2>
 
         <p className="mx-auto mt-6 max-w-2xl leading-8 text-gray-400">
-          Hamza Lab aims to build a trusted laboratory service focused on
+          southcity Lab aims to build a trusted laboratory service focused on
           accuracy, efficiency, professionalism, and patient convenience.
         </p>
 

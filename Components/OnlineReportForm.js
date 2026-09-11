@@ -29,17 +29,7 @@ const OnlineReportForm = () => {
   return (
     <div className={styles.container}>
       <div className={styles.formCard}>
-        {/* Logo Section */}
-        <div className={styles.logoSection}>
-          <img 
-            src="/logo.png" 
-            alt="Lab Logo" 
-            className={styles.logo}
-            onError={(e) => {
-              e.target.src = '/placeholder-logo.png';
-            }}
-          />
-        </div>
+       
 
         <h1 className={styles.title}>Online Lab Reports</h1>
 
