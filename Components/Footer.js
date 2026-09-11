@@ -12,7 +12,8 @@ const Footer = () => {
           </div>
           <div><h3 className="mb-5 text-xs font-bold tracking-widest text-[#273449]">INFORMATION</h3><div className="grid gap-3 text-sm"><a href="#">Shipping Policy</a><a href="#">Careers</a><a href="#">FAQs</a><a href="#">Contact Us</a></div></div>
           <div><h3 className="mb-5 text-xs font-bold tracking-widest text-[#273449]">SERVICES</h3><div className="grid gap-3 text-sm"><a href="#services">All Services</a><a href="#lab-tests">Lab Tests</a><a href="#services">Physiotherapy</a><a href="#services">Vaccination</a></div></div>
-          <div><h3 className="mb-5 text-xs font-bold tracking-widest text-[#273449]">CONTACT US</h3><p className="m-0 text-sm leading-7">SC-13, Block H North Nazimabad Town, Karachi</p><p className="mt-3 text-sm">+92 (021) 111 786 986</p><p className="text-sm">info@essalab.com</p></div>
+          <div><h3 className="mb-5 text-xs font-bold tracking-widest text-[#273449]">CONTACT US</h3><p className="m-0 text-sm leading-7">SC-13, Block H North Nazimabad Town, Karachi</p><p className="mt-3 text-sm">021-35373300
+</p><p className="text-sm"> info@southcitylab.org</p></div>
         </div>
         <div className="border-t border-[#dce6ed] px-6 py-5 text-center text-xs max-md:px-3">© 2026 Dr. Essa Lab. All rights reserved.</div>
       </footer>
