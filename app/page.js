@@ -2,6 +2,9 @@
 import Image from "next/image";
 
 
+
+
+
 const serviceCards = [
   ["BOOK BLOOD TESTS", "https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=900&q=85"],
   ["BOOK PHYSIOTHERAPY", "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?auto=format&fit=crop&w=900&q=85"],
@@ -42,10 +45,7 @@ export default function Home() {
     <main className="overflow-hidden text-[#273449]">
   
 
-      <section>
-        <img className="block max-h-[550px] w-full object-cover max-md:min-h-[180px]" src="/hero-image.webp" alt="Essa Laboratory services" />
-        <span className="mx-auto my-[18px] mb-[50px] block h-[5px] w-[108px] rounded-full relative -top-18 bg-[#d7dce0]" />
-      </section>
+     <iframe width="" height="315" src="https://www.youtube.com/embed/6S6pFHXROXA?si=3PCGaoBcbS3eBRyA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
       <section className="mx-auto mb-28 w-full max-w-[1263px] px-6 max-md:mb-[60px] max-md:px-3" id="services">
         <div className="grid grid-cols-4 gap-7 max-md:grid-cols-2 max-md:gap-3.5">

@@ -36,11 +36,11 @@ const Header = () => {
       <header className={styles.mainHeader}>
         <div className={styles.logoSection}>
           <Image 
-            className={styles.logo} 
             src="/logo.png" 
-            height={280} 
-            width={280} 
-            alt="Essa Laboratory" 
+            height={100} 
+            width={100} 
+            alt="Essa Laboratory"
+            priority
           />
         </div>
 

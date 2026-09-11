@@ -52,6 +52,15 @@
 
 .logoSection {
   flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+
+.logoSection img {
+  height: auto;
+  width: 175px;
+  border-radius: 8px;
+  object-fit: contain;
 }
 
 .logo {
@@ -204,7 +213,7 @@
     gap: 12px;
   }
 
-  .logo {
+  .logoSection img {
     width: 100px;
   }
 
@@ -297,7 +306,7 @@
     gap: 8px;
   }
 
-  .logo {
+  .logoSection img {
     width: 80px;
   }
 
